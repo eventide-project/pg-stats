@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
 
-executables/pg-stats-bloat
-executables/pg-stats-blocking
+for executable in executables/*; do
+  echo "» $executable"
+
+  ($executable)
+
+  echo
+done
