@@ -12,5 +12,7 @@ echo "Blocking"
 echo "= = ="
 echo
 
-psql $database -P pager=off -f $(queries_dir)/blocking.sql
+sql_file="blocking.sql"
+
+psql $database -P pager=off -f $(queries_dir)/$sql_file
 

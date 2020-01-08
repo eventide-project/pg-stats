@@ -8,11 +8,11 @@ function queries_dir {
 }
 
 echo
-echo "Bloat"
+echo "Cache Hit"
 echo "= = ="
 echo
 
-sql_file="bloat.sql"
+sql_file="cache-hit.sql"
 
 psql $database -P pager=off -f $(queries_dir)/$sql_file
 
