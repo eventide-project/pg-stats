@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-test/interactive/scripts.sh
+test/interactive/executables.sh
