@@ -2,17 +2,11 @@
 
 set -e
 
-function queries_dir {
-  val="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-  echo "$val/../queries"
-}
+source "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/run.sh"
 
 echo
 echo "Cache Hit"
 echo "= = ="
 echo
 
-sql_file="cache-hit.sql"
-
-psql $database -P pager=off -f $(queries_dir)/$sql_file
-
+run cache-hit.sql

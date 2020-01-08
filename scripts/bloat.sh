@@ -2,17 +2,11 @@
 
 set -e
 
-function queries_dir {
-  val="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-  echo "$val/../queries"
-}
+source "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/run.sh"
 
 echo
 echo "Bloat"
 echo "= = ="
 echo
 
-sql_file="bloat.sql"
-
-psql $database -P pager=off -f $(queries_dir)/$sql_file
-
+run bloat.sql
