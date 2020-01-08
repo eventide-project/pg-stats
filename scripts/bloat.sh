@@ -8,7 +8,7 @@ function queries_dir {
 }
 
 echo
-echo "bloat"
+echo "Bloat"
 echo "= = ="
 
 psql $database -P pager=off -f $(queries_dir)/bloat.sql
