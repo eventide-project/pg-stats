@@ -1,0 +1,8 @@
+.DS_store
+.bundle/
+Gemfile.lock
+*.gem
+gems
+*scratch*
+database
+message-db-*
