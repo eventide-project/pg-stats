@@ -8,9 +8,9 @@ function queries_dir {
 }
 
 echo
-echo "Bloat"
+echo "Blocking"
 echo "= = ="
 echo
 
-psql $database -P pager=off -f $(queries_dir)/bloat.sql
+psql $database -P pager=off -f $(queries_dir)/blocking.sql
 
