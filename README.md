@@ -1,8 +1,8 @@
 # PG Stats
 
-**Database statistics for Postgres**
+**Database Statistics for Postgres**
 
-Common statistics for Postgres databases, including index usage, locks, table size, index size, buffer cache hit ratios, bloat, vacuum stats and more.
+Common statistics for Postgres databases, including index usage, locks, table size, index size, buffer cache hit ratios, bloat, vacuum stats, and more.
 
 ## Features
 

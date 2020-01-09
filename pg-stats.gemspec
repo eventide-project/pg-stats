@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.name = 'pg-stats'
   s.version = '0.0.0'
-  s.summary = 'Database statistics for Postgres'
+  s.summary = 'Database Statistics for Postgres'
   s.description = ' '
 
   s.authors = ['The Eventide Project']
