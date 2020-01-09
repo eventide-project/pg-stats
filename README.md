@@ -68,7 +68,7 @@ bundle exec pg-stats-table-size
 
 ### Fun With SQL
 
-The scripts execute SQL queries via the `psql` utility installed with PostgreSQL.
+The bash scripts execute SQL queries via the `psql` utility which is installed with PostgreSQL.
 
 The SQL scripts can be examined from the `queries` directory: [https://github.com/eventide-project/pg-stats/tree/master/queries](https://github.com/eventide-project/pg-stats/tree/master/queries)
 
