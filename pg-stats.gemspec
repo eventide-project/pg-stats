@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage = 'https://github.com/pg-stats/pg-stats'
   s.licenses = ['MIT']
 
-  s.files = Dir.glob('{sql}/**/*')
-  s.executables = Dir.glob('scripts/pg-stats-*').map(&File.method(:basename))
-  s.bindir = 'scripts'
+  s.files = Dir.glob(['{queries}/**/*', '{scripts}/**/*'])
+  s.executables = Dir.glob('executables/pg-stats-*').map(&File.method(:basename))
+  s.bindir = 'executables'
 end
