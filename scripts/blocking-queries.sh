@@ -5,8 +5,8 @@ set -e
 source "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/run.sh"
 
 echo
-echo "Blocking"
+echo "Blocking Queries"
 echo "= = ="
 echo
 
-run blocking.sql
+run blocking-queries.sql
