@@ -47,29 +47,24 @@ bundle exec pg-stats-table-size
 | Name | Description | Bash Script | Ruby Executable |
 | --- | --- | --- | --- |
 | Bloat | Table and index bloat in your database ordered by most wasteful | bloat.sh | pg-stats-bloat |
-
-
-| Name | Bash Script | Ruby Executable |
-| --- | --- | --- |
-| Bloat | bloat.sh | pg-stats-bloat |
-| Blocking Queries | blocking-queries.sh | pg-stats-blocking-queries |
-| Cache Hit Rate | cache-hit-rate.sh | pg-stats-cache-hit-rate |
-| Extensions | extensions.sh | pg-stats-extensions |
-| Index Size | index-size.sh | pg-stats-index-size |
-| Index Usage | index-usage.sh | pg-stats-index-usage |
-| Locks | locks.sh | pg-stats-locks |
-| Long-Running Queries | long-running-queries.sh | pg-stats-long-running-queries |
-| Outliers | outliers.sh | pg-stats-outliers |
-| Records Rank | records-rank.sh | pg-stats-records-rank |
-| Sequential Scans | seq-scans.sh | pg-stats-seq-scans |
-| Statements | statements.sh | pg-stats-statements |
-| Statements Reset | statements-reset.sh | pg-stats-statements-reset |
-| Table Indexes Size | table-indexes-size.sh | pg-stats-table-indexes-size |
-| Table Size | table-size.sh | pg-stats-table-size |
-| Total Index Size | total-index-size.sh | pg-stats-total-index-size |
-| Total Table Size | total-table-size.sh | pg-stats-total-table-size |
-| Unused Indexes | unused-indexes.sh | pg-stats-unused-indexes |
-| Vacuum Stats | unused-indexes.sh | pg-stats-unused-indexes |
+| Blocking Queries | Queries holding locks other queries are waiting to be released | blocking-queries.sh | pg-stats-blocking-queries |
+| Cache Hit Rate | Index and table hit rate | cache-hit-rate.sh | pg-stats-cache-hit-rate |
+| Extensions | Available and installed extensions | extensions.sh | pg-stats-extensions |
+| Index Size | The size of indexes, descending by size | index-size.sh | pg-stats-index-size |
+| Index Usage | Index hit rate (effective databases are at 99% and up) | index-usage.sh | pg-stats-index-usage |
+| Locks | Queries with active locks | locks.sh | pg-stats-locks |
+| Long-Running Queries | All queries longer than five minutes by descending duration | long-running-queries.sh | pg-stats-long-running-queries |
+| Outliers | 10 queries that have longest execution time in aggregate | outliers.sh | pg-stats-outliers |
+| Records Rank | All tables and the number of rows in each ordered by number of rows descending | records-rank.sh | pg-stats-records-rank |
+| Sequential Scans | Count of sequential scans by table descending by order | seq-scans.sh | pg-stats-seq-scans |
+| Statements | 10 queries that have longest execution time in aggregate | statements.sh | pg-stats-statements |
+| Statements Reset | Reset statements statistics data | statements-reset.sh | pg-stats-statements-reset |
+| Table Indexes Size | Total size of all the indexes on each table, descending by size | table-indexes-size.sh | pg-stats-table-indexes-size |
+| Table Size | Size of the tables (excluding indexes), descending by size | table-size.sh | pg-stats-table-size |
+| Total Index Size | Total size of all indexes in MB | total-index-size.sh | pg-stats-total-index-size |
+| Total Table Size | Size of the tables (including indexes), descending by size | total-table-size.sh | pg-stats-total-table-size |
+| Unused Indexes | Unused and almost unused indexes | unused-indexes.sh | pg-stats-unused-indexes |
+| Vacuum Stats | Dead rows and whether an automatic vacuum is expected to be triggered | unused-indexes.sh | pg-stats-unused-indexes |
 
 ## Attribution
 
