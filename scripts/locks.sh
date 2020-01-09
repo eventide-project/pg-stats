@@ -5,8 +5,8 @@ set -e
 source "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/run.sh"
 
 echo
-echo "Index Size"
+echo "Locks"
 echo "= = ="
 echo
 
-run index-size.sql
+run locks.sql
