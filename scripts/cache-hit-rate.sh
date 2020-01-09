@@ -10,4 +10,4 @@ echo "= = ="
 echo "Index and table hit rate"
 echo
 
-run cache-hit.sql
+run cache-hit-rate.sql
