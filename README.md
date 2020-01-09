@@ -10,13 +10,13 @@ PG Stats can be installed either as a Ruby Gem or can simply be cloned from this
 
 ### Git Clone
 
-``` bash
+```
 git clone git@github.com:eventide-project/pg-stats.git
 ```
 
 ### As a Ruby Gem
 
-``` bash
+```
 gem install pg-stats
 ```
 
@@ -28,7 +28,7 @@ Reports can be run as bash scripts from the cloned repo or as Ruby gem or Bundle
 
 Change directory to the `pg-stats` directory where you cloned the repo, and run the script:
 
-``` bash
+```
 scripts/table-size.sh
 ```
 
@@ -38,7 +38,7 @@ If you installed PG Stats via RubyGems, Ruby executables will be installed with 
 
 The executable will be in the gem executable search path and may also be executed through bundler:
 
-``` bash
+```
 bundle exec pg-stats-table-size
 ```
 
