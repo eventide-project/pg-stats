@@ -5,7 +5,7 @@ set -e
 source "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/run.sh"
 
 echo
-echo "Long Running Queries"
+echo "Long-Running Queries"
 echo "= = ="
 echo
 

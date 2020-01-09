@@ -5,7 +5,7 @@ set -e
 source "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/run.sh"
 
 echo
-echo "Vacuum"
+echo "Vacuum Stats"
 echo "= = ="
 echo
 
