@@ -66,7 +66,7 @@ bundle exec pg-stats-table-size
 | Unused Indexes | Unused and almost unused indexes | unused-indexes.sh | pg-stats-unused-indexes |
 | Vacuum Stats | Dead rows and whether an automatic vacuum is expected to be triggered | unused-indexes.sh | pg-stats-unused-indexes |
 
-### Enjoy the SQL
+### Fun With SQL
 
 The scripts execute SQL queries via the `psql` utility installed with PostgreSQL. The SQL scripts can be read from: [https://github.com/eventide-project/pg-stats/tree/master/queries](https://github.com/eventide-project/pg-stats/tree/master/queries)
 
