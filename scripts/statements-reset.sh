@@ -3,8 +3,10 @@
 set -e
 
 echo
-echo "Statements - Reset Stats Data"
+echo "Statements Reset"
 echo "= = ="
+echo "Reset statements statistics data"
+echo
 echo "NOTE: Requires the pg_stats_statement extension"
 echo "https://www.postgresql.org/docs/current/pgstatstatements.html"
 echo

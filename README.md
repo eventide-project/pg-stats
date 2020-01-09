@@ -53,7 +53,7 @@ bundle exec pg-stats-table-size
 | Index Size | The size of indexes, descending by size | index-size.sh | pg-stats-index-size |
 | Index Usage | Index hit rate (effective databases are at 99% and up) | index-usage.sh | pg-stats-index-usage |
 | Locks | Queries with active locks | locks.sh | pg-stats-locks |
-| Long-Running Queries | All queries longer than five minutes by descending duration | long-running-queries.sh | pg-stats-long-running-queries |
+| Long-Running Queries | All queries longer than 1 minute by descending duration | long-running-queries.sh | pg-stats-long-running-queries |
 | Outliers | 10 queries that have longest execution time in aggregate | outliers.sh | pg-stats-outliers |
 | Records Rank | All tables and the number of rows in each ordered by number of rows descending | records-rank.sh | pg-stats-records-rank |
 | Sequential Scans | Count of sequential scans by table descending by order | seq-scans.sh | pg-stats-seq-scans |
