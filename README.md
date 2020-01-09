@@ -57,7 +57,7 @@ bundle exec pg-stats-table-size
 | Outliers | 10 queries that have longest execution time in aggregate | outliers.sh | pg-stats-outliers |
 | Records Rank | All tables and the number of rows in each ordered by number of rows descending | records-rank.sh | pg-stats-records-rank |
 | Sequential Scans | Count of sequential scans by table descending by order | seq-scans.sh | pg-stats-seq-scans |
-| Statements | 10 queries that have longest execution time in aggregate | statements.sh | pg-stats-statements |
+| Slow Statements | 10 queries that have longest execution time in aggregate | slow-statements.sh | pg-stats-slow-statements |
 | Statements Reset | Reset statements statistics data | statements-reset.sh | pg-stats-statements-reset |
 | Table Indexes Size | Total size of all the indexes on each table, descending by size | table-indexes-size.sh | pg-stats-table-indexes-size |
 | Table Size | Size of the tables (excluding indexes), descending by size | table-size.sh | pg-stats-table-size |
