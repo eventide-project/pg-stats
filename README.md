@@ -68,7 +68,9 @@ bundle exec pg-stats-table-size
 
 ## Attribution
 
-The PG Stats library is based on Paweł Urbanek's `rails-pg-extras` library. The SQL scripts used are from Paweł's implementation: [https://github.com/pawurb/rails-pg-extras/tree/master/lib/rails-pg-extras/queries](https://github.com/pawurb/rails-pg-extras/tree/master/lib/rails-pg-extras/queries).
+The PG Stats library is based on Paweł Urbanek's `ruby-pg-extras` library. The SQL scripts used are from Paweł's implementation: [https://github.com/pawurb/ruby-pg-extras/tree/master/lib/ruby-pg-extras/queries](https://github.com/pawurb/ruby-pg-extras/tree/master/lib/ruby-pg-extras/queries).
+
+The `ruby-pg-extras` original content MIT license is [included](https://github.com/eventide-project/pg-stats/blob/master/queries/MIT-License.txt).
 
 ## License
 
