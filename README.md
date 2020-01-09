@@ -6,7 +6,7 @@ Common statistics for Postgres databases, including index usage, locks, table si
 
 ## Installation
 
-PG Stats can be installed either as a Ruby Gem or can simply be cloned from this repository.
+PG Stats can be installed either as a Ruby Gem or can simply be downloaded from this repository.
 
 ### Git Clone
 
