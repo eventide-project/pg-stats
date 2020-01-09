@@ -44,6 +44,11 @@ bundle exec pg-stats-table-size
 
 ## Reports
 
+| Name | Description | Bash Script | Ruby Executable |
+| --- | --- | --- | --- |
+| Bloat | Table and index bloat in your database ordered by most wasteful | bloat.sh | pg-stats-bloat |
+
+
 | Name | Bash Script | Ruby Executable |
 | --- | --- | --- |
 | Bloat | bloat.sh | pg-stats-bloat |
