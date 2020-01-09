@@ -68,7 +68,7 @@ bundle exec pg-stats-table-size
 
 ### Enjoy the SQL
 
-The scripts execute SQL queries via the `psql` utility installed with PostgreSql. The SQL scripts can be read from: [https://github.com/eventide-project/pg-stats/tree/master/queries](https://github.com/eventide-project/pg-stats/tree/master/queries)
+The scripts execute SQL queries via the `psql` utility installed with PostgreSQL. The SQL scripts can be read from: [https://github.com/eventide-project/pg-stats/tree/master/queries](https://github.com/eventide-project/pg-stats/tree/master/queries)
 
 ## Attribution
 
